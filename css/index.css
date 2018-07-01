@@ -3,6 +3,25 @@
 }
 .frog img {
   width: 100%;
+  margin-bottom: 1em;
+}
+.frog a {
+  display: block;
+  padding: 1em;
+}
+.frog a:link {
+  color: black;
+  text-decoration: none;
+}
+.frog a:hover {
+  background-color: #d8ffd1;
+}
+.frog a:active {
+  background-color: #a7fd97;
+}
+
+hr {
+  margin-bottom: 2em;
 }
 
 /*# sourceMappingURL=css/index.css.map */

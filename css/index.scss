@@ -1,7 +1,31 @@
+$navcolor: #d8ffd1;
+$navcolor-highlight: #a7fd97;
+
 .frog {
   text-align: center;
 
   img {
     width: 100%;
+    margin-bottom: 1em;
   }
+
+  a {
+    display: block;
+    padding: 1em;
+  }
+
+  a:link {
+    color: black;
+    text-decoration: none;
+  }
+  a:hover {
+    background-color: $navcolor;
+  }
+  a:active {
+    background-color: $navcolor-highlight;
+  }
+}
+
+hr {
+  margin-bottom: 2em;
 }
