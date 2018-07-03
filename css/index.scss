@@ -1,6 +1,10 @@
 $navcolor: #d8ffd1;
 $navcolor-highlight: #a7fd97;
 
+%link-style {
+  color: #51c33c;
+}
+
 .frog {
   text-align: center;
 
@@ -33,4 +37,8 @@ hr {
 .display-4 {
   margin-top: 1em;
   text-align: center;
+}
+
+a {
+  @extend %link-style;
 }
